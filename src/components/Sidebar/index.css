@@ -1,0 +1,57 @@
+
+.sidebar {
+  width: 220px;
+   background-color: #f0f6ff;
+  border-right: 1px solid #e6e6e6;
+  padding: 20px;
+  min-height: 100vh;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+}
+
+.healthcare {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+   color: #00c2ff;
+}
+
+.healthcare-span {
+  color: #010506;
+}
+
+.menu-section h4 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+.general-list,.tools-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ li {
+  margin: 10px 0;
+  cursor: pointer;
+  color: #333;
+}
+
+
+.item,.gen,.settings{
+    color: #888;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+   
+   
+}
+.tools{
+  color: #888;
+}
+.settings{
+    color: #888;
+    justify-self: flex-end;
+    margin-top: 5rem;
+   
+}

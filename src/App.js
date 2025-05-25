@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import CalendarView from './components/CalendarView';
+import Dashboard from './components/Dashboard';
+import SideBar from './components/Sidebar';
+import Schedules from './components/Schedules';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container-main'>
+      <SideBar/>
+      <Dashboard/>
+      <div className='right-containers'>
+      <CalendarView/>
+      {/* <Schedules/> */}
+      </div>
     </div>
   );
 }

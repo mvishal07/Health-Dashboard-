@@ -1,0 +1,121 @@
+.headpart{
+    display: flex;
+
+        width: 100%;
+        justify-content: end;
+}
+.calendarview-container{
+
+    background-color: #f0f6ff;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.month-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.month{
+    color: #1919b6;
+    font-weight: bold;
+}
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.week{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.selectedweek{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b6d3ff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.weeks{
+    font-weight: 500;
+    color: #3f3fc6;
+}
+
+.data{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #1f1f9a;
+}
+
+.times{
+    font-weight: 400;
+    color: #121222;
+}
+
+
+.appoinments-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dentist-card{
+    color: #c1c1c1;
+    background-color: #2222b3;
+    padding: 1rem;
+    border-radius: 20px;
+
+}
+
+.dentist-name{
+    color: #ffffff;
+}
+
+
+.physiotherapy-card{
+    background-color: #e7ebff;
+    padding: 1rem;
+    border-radius: 20px;
+    color: #454545;
+    font-weight: 400;
+}
+.phys{
+    color: #030342;
+    font-weight: 500;
+}
+
+.schedules-heading{
+    font-weight: 700;
+    color: #030342;
+}
+.day{
+    color: #c1c1c1;
+}
+
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-sche, .second-sche{
+    background-color: #e7ebff;
+    padding: 1rem;
+    border-radius: 20px;
+    min-width:200px ;
+    color: #030342;
+    font-weight: 400;
+}
+
+.s-name{
+    font-weight: 600;
+    color: #030331;
+}
